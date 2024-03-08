@@ -1,0 +1,68 @@
+.login {
+  background: url("../../Assets/Images/LoginformBgimg.jpg") no-repeat top center
+    fixed;
+  background-size: cover;
+  position: fixed;
+  display: block;
+  width: 100% !important;
+  height: 100%;
+}
+.login .col-xl-4 {
+  background: url("../../Assets/Images/loginformbg.png");
+  border-radius: 7px;
+  height: 350px;
+}
+.login .col-xl-4 h1 {
+  color: #fff;
+  font-weight: 700;
+  text-align: center;
+  font-size: 25px;
+  text-transform: uppercase;
+  letter-spacing: 01px;
+}
+.login .col-xl-4 input {
+  background: url("../../Assets/Images/loginforminputbg.png") repeat-x;
+  border: 2px rgba(255, 255, 255, 0.1) solid !important;
+  border-radius: 7px;
+  height: 40px;
+  color: #fff;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 28px !important;
+  font-size: 15px;
+}
+.login .col-xl-4 input + img {
+  position: absolute;
+  top: 8px;
+  left: 24px;
+}
+
+label {
+  color: #fff;
+  font-size: 20px;
+}
+
+button {
+  width: 300px;
+  height: 40px;
+  border: none;
+  text-align: center;
+}
+
+button:hover {
+  background: black;
+  color: #fff;
+}
+
+.ifAccountOrNot {
+  color: #fff;
+  text-decoration: none;
+}
+
+.ifAccountOrNot:hover {
+  text-decoration: underline;
+}
+
+.errorForm {
+  color: red;
+}

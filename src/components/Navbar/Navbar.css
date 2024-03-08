@@ -1,0 +1,91 @@
+header {
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+}
+header .col-xl-2:first-child {
+  background: #191a1a;
+  border-bottom: 0px;
+}
+header .col-xl-2:first-child h1 {
+  color: #fff;
+  font-size: 20px;
+  margin: 0px !important;
+  padding: 0 !important;
+  font-weight: 700;
+}
+header .col-xl-4,
+header .col-xl-6 {
+  background: #fff;
+  border-bottom: 01px #cccccc solid;
+}
+header .col-xl-6 {
+  position: relative;
+}
+header .col-xl-6 a {
+  position: absolute;
+  left: -20px;
+  top: 7px;
+  z-index: 999999;
+}
+header .col-xl-6 ul li {
+  float: left;
+  padding: 0px 28px;
+  position: relative;
+  border-right: 01px #cccccc solid;
+  height: 57px;
+  display: flex;
+}
+header .col-xl-6 ul li .badge {
+  position: absolute;
+  top: 09px;
+  padding: 4px 10px;
+  background: #191a1a !important;
+  left: 40px;
+}
+header .col-xl-6 ul li img {
+  align-self: center;
+}
+header .col-xl-4:last-child .navbar {
+  padding: 0 !important;
+}
+header .col-xl-4:last-child .navbar .navbar-nav .dropdown-menu {
+  position: absolute !important;
+  top: 50px;
+  display: block;
+}
+header .col-xl-4:last-child .navbar .dropdown-toggle:after {
+  content: none !important;
+}
+header .col-xl-4:last-child .navbar a {
+  color: #000 !important;
+}
+header .col-xl-4:last-child .navbar a i {
+  color: #000 !important;
+  position: relative;
+  top: 5px;
+  left: 05px;
+}
+header .col-xl-4:last-child .navbar img {
+  margin-right: 6px;
+}
+header .col-xl-4:last-child .navbar li {
+  padding: 0px 20px;
+}
+header .col-xl-4:last-child .navbar li a {
+  font-weight: 700;
+}
+header .col-xl-4:last-child .navbar li:first-child {
+  display: flex;
+}
+header .col-xl-4:last-child .navbar li:first-child i {
+  align-self: center;
+  color: #ccc;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 1274px) and (min-width: 992px) {
+  header .col-xl-4 ul {
+    margin: 0px !important;
+  }
+}

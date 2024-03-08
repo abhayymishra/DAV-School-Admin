@@ -1,0 +1,75 @@
+.content .left_panel {
+  /* position: fixed; */
+  background: #2f3539;
+  width: 228px;
+  float: left;
+  height: 100%;
+  transition: all 0.5s 0s ease-in-out;
+  left: 0;
+  top: 0;
+  padding-top: 70px;
+}
+.content .left_panel .le_srl {
+  height: 610px;
+  overflow-y: auto;
+}
+.content .left_panel .user_panel h2 {
+  color: #fff !important;
+  font-size: 16px;
+}
+.content .left_panel .user_panel h3 {
+  color: #fff !important;
+  font-size: 12px;
+  margin-bottom: 3px !important;
+}
+.content .left_panel .user_panel h3 + span {
+  color: #959595;
+}
+.content .left_panel .user_panel h3 + span + span {
+  color: #05be42;
+}
+.content .left_panel .user_panel p {
+  color: #8abe50 !important;
+  padding-top: 03px;
+  margin: 0px !important;
+  padding: 0 !important;
+}
+.content .left_panel .nav > li {
+  background: #191a1a;
+  line-height: 30px;
+  border-bottom: 01px #292d30 solid;
+}
+.content .left_panel .nav > li:last-child {
+  border: 0px;
+}
+.content .left_panel .nav > li a {
+  color: #99abbc !important;
+  font-size: 16px;
+  font-weight: 500;
+}
+.content .left_panel .nav > li a img {
+  margin-right: 10px;
+}
+.content .left_panel .nav > li a[data-toggle="collapse"] i {
+  position: relative;
+  right: -37%;
+  font-weight: 700;
+}
+.content .left_panel .nav > li a[data-toggle="collapse"] + div ul {
+  background: #282929 !important;
+}
+.content .left_panel .nav > li a[data-toggle="collapse"] + div ul li {
+  background: #282929 !important;
+  border: 0px;
+}
+.content .left_panel .nav > li a[data-toggle="collapse"] + div ul li a {
+  color: #fff !important;
+  font-size: 14px !important;
+}
+.content .left_panel .nav > li a[data-toggle="collapse"] + div ul li a:before {
+  /* content: url(../IMAGES/menu_ad.png); */
+  margin-right: 07px;
+  padding-right: 03px;
+}
+
+.add_on .left_panel { left: -228px; }

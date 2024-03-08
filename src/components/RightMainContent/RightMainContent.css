@@ -1,0 +1,96 @@
+.content .right_panel {
+  padding-top: 70px !important;
+  position: relative;
+  width: calc(100% - 228px);
+  float: right;
+  background: #edecec;
+  transition: all 0.5s 0s ease-in-out;
+  right: 0;
+}
+.content .right_panel .d_text {
+  background: #2f3539;
+  padding: 10px;
+  -moz-box-shadow: 1px 0px 5px #c1c1c1;
+  -webkit-box-shadow: 1px 0px 5px #c1c1c1;
+  box-shadow: 1px 0px 5px #c1c1c1;
+  color: #fff;
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+.content .right_panel .d_bg {
+  background: #fff;
+  padding: 10px;
+  border: 09px #e3e3e3 solid;
+  margin-bottom: 15px;
+}
+.content .right_panel .d_bg img {
+  margin-right: 15px;
+}
+.content .right_panel .d_bg img + h1 {
+  font-size: 19px;
+  text-transform: uppercase;
+  color: #7b7b7b;
+}
+.content .right_panel .d_bg img + h1 > small {
+  color: #3498db;
+  font-weight: 700;
+  font-size: 25px;
+}
+.content .right_panel .bttn a:nth-child(1) {
+  background: url("../../Assets/Images/additionicon.png") no-repeat #fff 5px 50%;
+  padding: 10px 20px 10px 23px;
+  font-size: 15px;
+  color: #6a6a6a;
+  text-decoration: none;
+  margin: 0px 4px;
+}
+.content .right_panel .bttn a:nth-child(2) {
+  background: url("../../Assets/Images/copyfileicon.png") no-repeat #fff 5px 50%;
+  padding: 10px 20px 10px 23px;
+  font-size: 15px;
+  color: #6a6a6a;
+  text-decoration: none;
+  margin: 0px 4px;
+}
+.content .right_panel .bttn a:nth-child(3) {
+  background: url("../../Assets/Images/excelicon.png") no-repeat #fff 5px 50%; 
+  padding: 10px 20px 10px 23px;
+  font-size: 15px;
+  color: #6a6a6a;
+  text-decoration: none;
+  margin: 0px 4px;
+}
+.content .right_panel .bttn a:nth-child(4) {
+  background: url("../../Assets/Images/pdficon.png") no-repeat #fff 5px 50%;
+  padding: 10px 20px 10px 23px;
+  font-size: 15px;
+  color: #6a6a6a;
+  text-decoration: none;
+  margin: 0px 4px;
+}
+.content .right_panel .bttn a:nth-child(5) {
+  background: url("../../Assets/Images/printicon.png") no-repeat #fff 5px 50%;
+  padding: 10px 20px 10px 23px;
+  font-size: 15px;
+  color: #6a6a6a;
+  text-decoration: none;
+  margin: 0px 4px;
+}
+.content .right_panel #stuc {
+  background: #fff;
+}
+.content .right_panel #stuc table,
+.content .right_panel #stuc tr,
+.content .right_panel #stuc td,
+.content .right_panel #stuc th {
+  text-align: center;
+  color: #797b7d;
+  border-width: 0px 0px 1px 0px !important;
+}
+.content .right_panel #stuc th {
+  background: #f0f9ff;
+}
+
+.add_on .right_panel { width: 100%; }
+

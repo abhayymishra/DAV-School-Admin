@@ -1,38 +1,60 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media only screen and (max-width: 1200px) {
+  .right_panel .d_bg img {
+    width: 30% !important;
+  }
+  header .col-xl-4 .navbar {
+    width: auto !important;
+  }
+  header .col-xl-4 .ml-5 {
+    margin: 0px !important;
+  }
+  header .col-xl-4 .navbar-toggler {
+    position: relative !important;
+    top: 10px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media only screen and (max-width: 992px) {
+  .content .left_panel {
+    left: -228px;
   }
-  to {
-    transform: rotate(360deg);
+  .content .right_panel {
+    width: 100%;
+  }
+  .off_can .left_panel {
+    left: 0px;
+  }
+  .off_can .right_panel {
+    width: calc(100% - 228px);
+  }
+}
+
+@media only screen and (max-width: 567px) {
+  .content .left_panel {
+    top: 0px !important;
+  }
+  .content .right_panel {
+    top: 0px !important;
+  }
+  header .col-xl-6 ul {
+    display: table !important;
+    width: auto !important;
+    margin: 0px auto !important;
+    float: none !important;
+  }
+  header .col-xl-6 ul + a {
+    position: absolute !important;
+    left: 89%;
+    top: -40px;
+  }
+  header .col-xl-4 .fixed-top {
+    position: inherit !important;
+  }
+  header .col-xl-4 .pe-5 {
+    display: table !important;
+    width: auto !important;
+    margin: 0px auto !important;
+    float: none !important;
+    padding: 0px !important;
   }
 }
